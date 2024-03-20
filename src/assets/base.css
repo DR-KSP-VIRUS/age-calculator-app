@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+:root{
+  /* primary colors */
+  --Purple: hsl(259, 100%, 65%);
+  --Light-red: hsl(0, 100%, 67%);
+
+  /* neutral colors */
+  --White: hsl(0, 0%, 100%);
+  --Off-white: hsl(0, 0%, 94%);
+  --Light-grey: hsl(0, 0%, 86%);
+  --Smokey-grey: hsl(0, 1%, 44%);
+  --Off-black: hsl(0, 0%, 8%);
+}
+
+@font-face {
+  font-family: 'Poppins-Bold';
+  src: url("../assets/fonts/Poppins-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Poppins-BoldItalic';
+  font-weight: 800 !important;
+  src: url("../assets/fonts/Poppins-BoldItalic.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'Poppins-ExtraBold';
+  font-weight: 800 !important;
+  src: url("../assets/fonts/Poppins-ExtraBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'Poppins-ExtraBoldItalic';
+  font-weight: 800 !important;
+  src: url("../assets/fonts/Poppins-ExtraBoldItalic.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'Poppins-Italic';
+  src: url("../assets/fonts/Poppins-Italic.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'Poppins-Regular';
+  src: url("../assets/fonts/Poppins-Regular.ttf") format("truetype");
+}
+body{
+  min-height: 100%;
+}
+#app{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: var(--Off-white);
+}
